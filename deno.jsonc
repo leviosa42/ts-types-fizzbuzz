@@ -1,6 +1,7 @@
 {
   "compilerOptions": { // https://docs.deno.com/runtime/manual/advanced/typescript/configuration/
-    "jsx": "react-jsx" // use "react-jsx" or "react-jsxdev" for React@^17. "pre
+    "jsx": "react-jsx", // use "react-jsx" or "react-jsxdev" for React@^17. "pre
+    "lib": ["deno.ns"]
   },
   "fmt": { // `deno fmt`: https://docs.deno.com/runtime/manual/tools/formatter/
     "indentWidth": 2,
